@@ -2,7 +2,7 @@
 
 - Each search is implemented in a concrete class (**CitySearch**/**IdSearch**) implementing the base abstract class **FileSearch**.  This base class implements a factory pattern to get the concrete instance.
 
-- Unit testing implemented (94,4%).
+- Unit testing implemented (coverage 94,9%).
 
 - Performance test implemented on an auto-generated source data file (1,4GB).  About 20seg running a city search.
 
